@@ -1,0 +1,13 @@
+# Never commit Meta access tokens, Meta App Secret, or other credentials.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Operating system files
+.DS_Store
+Thumbs.db
